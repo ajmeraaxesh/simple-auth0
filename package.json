@@ -5,20 +5,16 @@
     "scripts": {
         "dev": "next dev",
         "build": "next build",
-        "start": "next start"
+        "start": "next start",
+        "staticbuild": "next build && next export"
     },
     "dependencies": {
-        "@headlessui/react": "^0.3.1",
-        "@tailwindcss/jit": "^0.1.17",
-        "@tailwindcss/ui": "^0.7.2",
+        "@auth0/auth0-react": "^1.5.0",
         "autoprefixer": "^10.2.5",
         "next": "10.1.1",
-        "nextjs-google-fonts": "^1.2.0",
         "postcss": "^8.2.8",
-        "postcss-preset-env": "^6.7.0",
         "react": "17.0.2",
         "react-dom": "17.0.2",
-        "react-error-boundary": "^3.1.1",
         "tailwindcss": "^2.0.4"
     },
     "peerDependencies": {
